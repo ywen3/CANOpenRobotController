@@ -1,0 +1,6 @@
+<map id="src/apps/DummyActJoint.h" name="src/apps/DummyActJoint.h">
+<area shape="rect" id="node2" href="$ActuatedJoint_8h.html" title="The ActuatedJoint class is a abstract class which represents a joint in a Robot objec. This class implements the Joint class, and specifically represents a joint which is actuated. This therefore requires a Drive object which will be used to interact with the physical hardware. " alt="" coords="427,80,545,107"/>
+<area shape="rect" id="node3" href="$Drive_8h.html" title="The Drive class is used to interface with a CANOpen motor drive. According to the CiA402 standard..." alt="" coords="362,155,429,181"/>
+<area shape="rect" id="node10" href="$Joint_8h.html" title="The Joint class is a abstract class which represents a joint in a Robot objec. This class can be used..." alt="" coords="546,155,607,181"/>
+<area shape="rect" id="node5" href="$CO__command_8h.html" title="CO_command.h" alt="" coords="125,229,250,256"/>
+</map>

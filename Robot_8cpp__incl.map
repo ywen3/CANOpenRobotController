@@ -1,0 +1,7 @@
+<map id="src/libs/robot/Robot.cpp" name="src/libs/robot/Robot.cpp">
+<area shape="rect" id="node2" href="$Robot_8h.html" title="The Robot class is a abstract class which is a software representation of a Robot with a flexible rep..." alt="" coords="227,80,298,107"/>
+<area shape="rect" id="node8" href="$DebugMacro_8h.html" title="Defines some macros for debugging output. " alt="" coords="352,80,467,107"/>
+<area shape="rect" id="node4" href="$InputDevice_8h.html" title="The Input class is a abstract class which represents an input device. The Update function is called i..." alt="" coords="208,155,317,181"/>
+<area shape="rect" id="node6" href="$Joint_8h.html" title="The Joint class is a abstract class which represents a joint in a Robot objec. This class can be used..." alt="" coords="341,155,403,181"/>
+<area shape="rect" id="node7" href="$TrajectoryGenerator_8h.html" title="Base class of Trajectory Generator. Will always be extended with specific implementations, and is relatively scarce, given the differences expected in the different trajectories. " alt="" coords="25,155,183,181"/>
+</map>

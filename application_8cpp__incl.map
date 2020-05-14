@@ -1,0 +1,23 @@
+<map id="src/apps/application.cpp" name="src/apps/application.cpp">
+<area shape="rect" id="node2" href="$application_8h.html" title="application.h" alt="" coords="1051,80,1153,107"/>
+<area shape="rect" id="node22" href="$CO__command_8h.html" title="CO_command.h" alt="" coords="1457,677,1582,704"/>
+<area shape="rect" id="node23" href="$CO__time_8h.html" title="CO_time.h" alt="" coords="2245,155,2335,181"/>
+<area shape="rect" id="node26" href="$ExoRobot_8h.html" title="ExoRobot.h" alt="" coords="1026,379,1119,405"/>
+<area shape="rect" id="node39" href="$ExoTestMachine_8h.html" title="ExoTestMachine.h" alt="" coords="1035,155,1169,181"/>
+<area shape="rect" id="node29" href="$CopleyDrive_8h.html" title="An implementation of the Drive Object, specifically for the Copley Drive. " alt="" coords="1085,528,1196,555"/>
+<area shape="rect" id="node31" href="$DummyActJoint_8h.html" title="A dummy class to test whether the actuated joint inheritence stuff works. " alt="" coords="1207,453,1341,480"/>
+<area shape="rect" id="node33" href="$DummyTrajectoryGenerator_8h.html" title="A trajectory generator to be used for testing purposes. " alt="" coords="546,453,757,480"/>
+<area shape="rect" id="node36" href="$Keyboard_8h.html" title="Keyboard.h" alt="" coords="1365,453,1458,480"/>
+<area shape="rect" id="node37" href="$Robot_8h.html" title="The Robot class is a abstract class which is a software representation of a Robot with a flexible rep..." alt="" coords="867,453,937,480"/>
+<area shape="rect" id="node38" href="$RobotParams_8h.html" title="Specific paramaters and naming definitions for exoskeleton robot class implementetion. " alt="" coords="1013,453,1132,480"/>
+<area shape="rect" id="node30" href="$Drive_8h.html" title="The Drive class is used to interface with a CANOpen motor drive. According to the CiA402 standard..." alt="" coords="1177,603,1243,629"/>
+<area shape="rect" id="node32" href="$ActuatedJoint_8h.html" title="The ActuatedJoint class is a abstract class which represents a joint in a Robot objec. This class implements the Joint class, and specifically represents a joint which is actuated. This therefore requires a Drive object which will be used to interact with the physical hardware. " alt="" coords="1220,528,1339,555"/>
+<area shape="rect" id="node35" href="$TrajectoryGenerator_8h.html" title="Base class of Trajectory Generator. Will always be extended with specific implementations, and is relatively scarce, given the differences expected in the different trajectories. " alt="" coords="676,528,835,555"/>
+<area shape="rect" id="node44" href="$ExoTestState_8h.html" title="ExoTestState.h" alt="" coords="803,304,921,331"/>
+<area shape="rect" id="node45" href="$StateMachine_8h.html" title="StateMachine.h" alt="" coords="613,229,735,256"/>
+<area shape="rect" id="node46" href="$InitState_8h.html" title="InitState.h" alt="" coords="1058,229,1146,256"/>
+<area shape="rect" id="node47" href="$Sitting_8h.html" title="Sitting.h" alt="" coords="1170,229,1245,256"/>
+<area shape="rect" id="node48" href="$SittingDwn_8h.html" title="SittingDwn.h" alt="" coords="403,229,505,256"/>
+<area shape="rect" id="node49" href="$Standing_8h.html" title="Standing.h" alt="" coords="759,229,850,256"/>
+<area shape="rect" id="node50" href="$StandingUp_8h.html" title="StandingUp.h" alt="" coords="874,229,983,256"/>
+</map>

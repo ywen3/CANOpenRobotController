@@ -1,0 +1,5 @@
+<map id="src/libs/robot/joint/ActuatedJoint.h" name="src/libs/robot/joint/ActuatedJoint.h">
+<area shape="rect" id="node2" href="$Drive_8h.html" title="The Drive class is used to interface with a CANOpen motor drive. According to the CiA402 standard..." alt="" coords="362,95,429,121"/>
+<area shape="rect" id="node9" href="$Joint_8h.html" title="The Joint class is a abstract class which represents a joint in a Robot objec. This class can be used..." alt="" coords="546,95,607,121"/>
+<area shape="rect" id="node4" href="$CO__command_8h.html" title="CO_command.h" alt="" coords="125,169,250,196"/>
+</map>
