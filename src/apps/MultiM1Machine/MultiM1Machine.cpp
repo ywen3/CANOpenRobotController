@@ -86,6 +86,7 @@ void MultiM1Machine::init(int argc, char *argv[]) {
 
     logHelper.add(multiControllerState_->SDOTriggerTime_, "SDOTriggerTime");
     logHelper.add(multiControllerState_->triggerValue_, "TriggerValue");
+    logHelper.add(multiM1MachineRos_->getFlipFlag(), "FlipFlag");
 
     logHelper.startLogger();
 }

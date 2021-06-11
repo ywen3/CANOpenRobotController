@@ -32,6 +32,9 @@ public:
     void initialize();
     void setNodeHandle(ros::NodeHandle& nodeHandle);
 
+    void setFlipFlag(bool flipFlag);
+    bool & getFlipFlag();
+
     ros::NodeHandle* nodeHandle_;
 
     Eigen::VectorXd jointPositionCommand_, jointVelocityCommand_, jointTorqueCommand_;
@@ -54,6 +57,8 @@ private:
     ros::Publisher interactionWrenchPublisher_;
     geometry_msgs::WrenchStamped interactionWrenchMsg_;
     RobotM1 *robot_;
+
+    bool flipFlag_;
 
 };
 

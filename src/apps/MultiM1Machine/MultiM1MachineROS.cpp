@@ -20,6 +20,7 @@ void MultiM1MachineROS::initialize() {
     jointVelocityCommand_ = Eigen::VectorXd::Zero(M1_NUM_JOINTS);
     jointTorqueCommand_ = Eigen::VectorXd::Zero(M1_NUM_JOINTS);
     interactionTorqueCommand_ = Eigen::VectorXd(M1_NUM_INTERACTION);
+    flipFlag_ = false;
 }
 
 void MultiM1MachineROS::update() {
@@ -38,7 +39,15 @@ void MultiM1MachineROS::publishJointStates() {
     jointStateMsg_.velocity.resize(M1_NUM_JOINTS);
     jointStateMsg_.effort.resize(M1_NUM_JOINTS);
     jointStateMsg_.name[0] = "M1_joint";
-    jointStateMsg_.position[0] = jointPositions[0];
+
+    // changing the visualized actual position depending on the flip flag read from GUI
+    if(flipFlag_){
+        jointStateMsg_.position[0] = 1.6-jointPositions[0];
+    }
+    else{
+        jointStateMsg_.position[0] = jointPositions[0];
+    }
+
     jointStateMsg_.velocity[0] = jointVelocities[0];
     jointStateMsg_.effort[0] = jointTorques[0]; /// BE CAREFUL CHANGED FROM JOINT TORQUE TO DESIRED INTERACTION TORQUE FOR SINGLE ROBOT FORCE CONTROL TEST
 
@@ -59,6 +68,15 @@ void MultiM1MachineROS::publishInteractionForces() {
 
 void MultiM1MachineROS::setNodeHandle(ros::NodeHandle &nodeHandle) {
     nodeHandle_ = &nodeHandle;
+}
+
+void MultiM1MachineROS::setFlipFlag(bool flipFlag) {
+
+    flipFlag_ = flipFlag;
+}
+
+bool & MultiM1MachineROS::getFlipFlag() {
+    return flipFlag_;
 }
 
 void MultiM1MachineROS::jointCommandCallback(const sensor_msgs::JointState &msg) {

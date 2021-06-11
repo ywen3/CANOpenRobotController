@@ -197,6 +197,8 @@ void MultiControllerState::dynReconfCallback(CORC::dynamic_paramsConfig &config,
         tick_count = 0;
     }
 
+    multiM1MachineRos_->setFlipFlag(config.flip);
+
 //    controller_mode_ = config.controller_mode;
     if(controller_mode_!=config.controller_mode)
     {
@@ -211,7 +213,6 @@ void MultiControllerState::dynReconfCallback(CORC::dynamic_paramsConfig &config,
         if(controller_mode_ == 3) robot_->initTorqueControl();
         if(controller_mode_ == 4) robot_->initTorqueControl();
         if(controller_mode_ == 5) robot_->initTorqueControl();
-
 
         if(controller_mode_ == 4) triggerValue_ = 1;
         else triggerValue_ = 0;
